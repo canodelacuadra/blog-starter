@@ -8,9 +8,10 @@
   Gatsby's blog starter
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Inicie su proyecto con este modelo de blog. Este *starter* se entrega con los archivos de configuración principales de Gatsby que puede necesitar para comenzar a funcionar rápidamente con el generador de aplicaciones ultrarrápido para React.
+.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+_¿Tienes otra idea más concreta? Quizás quieras echar un vistazo a nuestra vibrante colección de [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
@@ -48,7 +49,8 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a typical Gatsby project.
+
+Un vistazo rápido a los archivos y directorios de nivel superior que verá en un proyecto típico de Gatsby .
 
     .
     ├── node_modules
@@ -62,25 +64,28 @@ A quick look at the top-level files and directories you'll see in a typical Gats
     ├── package.json
     └── README.md
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`/node_modules`**: 
+Este directorio contiene todos los módulos de código de los que depende su proyecto (paquetes npm) que se instalan automáticamente.
 
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+1.  **`/src`**: 
+Este directorio contendrá todo el código relacionado con lo que verá en la interfaz de su sitio (lo que verá en el navegador), como el encabezado de su sitio o una plantilla de página `src` is a convention for “source code”.
 
 1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-1.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+1.  **`gatsby-browser.js`**: Este archivo es donde Gatsby espera encontrar cualquier uso del [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). (Si alguna). Estos permiten la personalización/extensión de la configuración predeterminada de Gatsby que afecta la navegación.
 
 1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
 
 1.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-1.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+1.  **`gatsby-ssr.js`**: Este archivo es donde Gatsby espera encontrar cualquier uso del [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). 
+Estos permiten la personalización de la configuración predeterminada de Gatsby que afecta la representación del lado del servidor..
 
-1.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+1.  **`LICENSE`**: Este iniciador de Gatsby tiene la licencia 0BSD. Esto significa que puede ver este archivo como marcador de posición y reemplazarlo con su propia licencia.
 
-1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+1.  **`package.json`**: Un archivo de manifiesto para proyectos Node.js, que incluye cosas como metadatos (el nombre del proyecto, autor, etc.). Este manifiesto es cómo npm sabe qué paquetes instalar para su proyecto.
 
-1.  **`README.md`**: A text file containing useful reference information about your project.
+1.  **`README.md`**: Un archivo de texto que contiene información de referencia útil sobre su proyecto.
 
 ## 🎓 Learning Gatsby
 
