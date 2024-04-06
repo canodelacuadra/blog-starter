@@ -71,9 +71,12 @@ Por ejemplo, puedes redirigir todas las URLs que comienzan con ``/old-page`` a l
 Gatsby ofrece una API específica para crear rutas solo en el cliente.
 Esto es útil para crear aplicaciones con contenido dinámico que se carga después de la carga inicial de la página.
 ### Recursos adicionales:
-
+<div class='alert alert-primary'>
 Documentación de Gatsby sobre rutas: https://www.gatsbyjs.com/docs/routing/
-Tutorial de Gatsby sobre rutas: [se quitó una URL no válida]
+</div>
+
+
+ 
 > En resumen:
 
->> Gatsby facilita la gestión de rutas en aplicaciones React con características adicionales como la creación automática de páginas, rutas dinámicas, redirecciones y la API de File System Route.
+> Gatsby facilita la gestión de rutas en aplicaciones React con características adicionales como la creación automática de páginas, rutas dinámicas, redirecciones y la API de File System Route.

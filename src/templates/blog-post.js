@@ -27,9 +27,7 @@ const BlogPostTemplate = ({
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Bio />
-        </footer>
+        <Bio />
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -57,6 +55,10 @@ const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
+       
+        <footer>
+         
+        </footer>
     </Layout>
   )
 }
@@ -89,7 +91,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD-MM-YYYY")
         description
       }
     }

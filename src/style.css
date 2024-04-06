@@ -52,10 +52,12 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #226699;
+  --color-secondary: #e3b5a6;
+  --color-secondary-soft: #e2c0b4;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
+  --color-heading: #240030;
   --color-heading-black: black;
   --color-accent: #d1dce5;
 }
@@ -79,6 +81,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-image: radial-gradient(var(--color-secondary-soft), var(--color-accent));
 }
 
 footer {
@@ -141,16 +144,17 @@ h6 {
   font-size: var(--fontSize-1);
 }
 
-h1 > a {
-  color: inherit;
+h1>a {
+  color: var(--color-accent);
   text-decoration: none;
+
 }
 
-h2 > a,
-h3 > a,
-h4 > a,
-h5 > a,
-h6 > a {
+h2>a,
+h3>a,
+h4>a,
+h5>a,
+h6>a {
   text-decoration: none;
   color: inherit;
 }
@@ -181,7 +185,7 @@ ol li {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
-li > p {
+li>p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
@@ -189,7 +193,7 @@ li *:last-child {
   margin-bottom: var(--spacing-0);
 }
 
-li > ul {
+li>ul {
   margin-left: var(--spacing-8);
   margin-top: calc(var(--spacing-8) / 2);
 }
@@ -205,12 +209,12 @@ blockquote {
   margin-bottom: var(--spacing-8);
 }
 
-blockquote > :last-child {
+blockquote> :last-child {
   margin-bottom: var(--spacing-0);
 }
 
-blockquote > ul,
-blockquote > ol {
+blockquote>ul,
+blockquote>ol {
   list-style-position: inside;
 }
 
@@ -250,6 +254,31 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  padding: var(--spacing-4);
+  background-color: #269;
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.global-wrapper footer {
+  background-color: var(--color-secondary);
+  color: var(--color-accent);
+  padding: var(--spacing-3);
+  background-color: #269;
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.global-wrapper footer a {
+  color: var(--color-accent);
 }
 
 .main-heading {
@@ -260,6 +289,8 @@ a:focus {
 .post-list-item {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
+  padding-bottom: var(--spacing-8);
+  border-bottom: solid 2px var(--color-secondary);
 }
 
 .post-list-item p {
@@ -282,11 +313,17 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
+  color: var(--color-accent);
+  padding: var(--spacing-5)
 }
 
 .bio {
   display: flex;
+  padding: var(--spacing-3);
   margin-bottom: var(--spacing-16);
+  border-bottom: solid 2px var(--color-secondary);
+  background-color: var(--color-accent);
+
 }
 
 .bio p {
@@ -302,6 +339,7 @@ a:focus {
 
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+  border-bottom: solid 2px var(--color-secondary);
 }
 
 .blog-post header p {
@@ -311,6 +349,25 @@ a:focus {
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+.blog-post-nav li {
+  background-color: var(--color-primary);
+  padding: var(--spacing-2);
+  border-radius: 6px;
+
+}
+
+.blog-post-nav li:hover {
+  background-color: var(--color-secondary);
+
+}
+
+
+.blog-post-nav li a {
+
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
 .gatsby-highlight {
@@ -324,6 +381,7 @@ a:focus {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
   }
+
   ul,
   ol {
     list-style-position: inside;
